@@ -1,0 +1,13 @@
+@use "../styles/variables" as *;
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__submit {
+    margin-top: 10px !important;
+    border-radius: $radius !important;
+    font-weight: 500;
+  }
+}

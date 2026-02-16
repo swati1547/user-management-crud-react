@@ -1,0 +1,29 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
+.home {
+  max-width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__create-btn {
+    background: $primary !important;
+    border-radius: $radius !important;
+
+    &:hover {
+      background: $primary-dark !important;
+    }
+  }
+}

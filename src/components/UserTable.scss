@@ -1,0 +1,44 @@
+@use "../styles/variables" as *;
+
+.user-table {
+  width: 70%;
+  margin-top: 20px;
+
+  .MuiTableContainer-root {
+    border-radius: $radius !important;
+    box-shadow: $shadow;
+  }
+
+  .MuiTableHead-root {
+    background: #fafafa;
+  }
+
+  .MuiTableCell-head {
+    font-weight: 600;
+  }
+
+  .MuiButton-contained {
+    border-radius: 8px;
+  }
+}
+.action {
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+
+  &__edit {
+    color: #1976d2;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__delete {
+    color: #d32f2f;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

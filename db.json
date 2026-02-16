@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "eac1",
+      "firstName": "Swati",
+      "lastName": "Garje",
+      "phone": "8693088704",
+      "email": "garjeswati1709@gmail.com"
+    },
+    {
+      "id": "5e24",
+      "firstName": "Harshit",
+      "lastName": "Bangar",
+      "phone": "1111111111",
+      "email": "chotuBangar123@gmail.com"
+    }
+  ]
+}
