@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Modal, Box, Button, Typography } from "@mui/material";
+import UserForm from "../components/UserForm";
+import UserTable from "../components/UserTable";
 import "./Home.scss";
 
 import {
